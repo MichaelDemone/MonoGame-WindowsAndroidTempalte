@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-windows-entry",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/WindowEntry/WindowEntry.csproj"
+            ]
+        }
+    ]
+}

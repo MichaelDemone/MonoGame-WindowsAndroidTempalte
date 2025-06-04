@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Launch WindowsEntry",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-windows-entry",
+            "program": "${workspaceFolder}/WindowEntry/bin/Debug/net8.0-windows/WindowEntry.exe",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        }
+    ]
+}
